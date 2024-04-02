@@ -8,6 +8,7 @@ h1{
 .wow{
     width: 40%;
     float: left;
+    
     margin-left: 5%;
     padding-left: 1%;
 }
@@ -16,11 +17,51 @@ h1{
 
 }
 .banner{
-    background-image: url("F:\web develoment\project\complete-web-development-bangla-resources-master\web_portfolio\image\top-banner.png");
+    
+    background-image: url("image/top-banner.png");
+    background-repeat: no-repeat;
     
 }
     
-}
+
 section{
-    height: 500px;
+    height: 700px;
+}
+body{
+    margin: 0;
+}
+
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(red,rgb(14, 218, 58));
+    padding: 10px 20px;
+    border-radius: 10px 10px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+p{
+    color: rgb(61, 49, 49);
+}
+.dream{
+    background-image: url("image/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.single{
+    box-shadow: 10px 10px 40px rgba(7, 255, 7, 0.515);
+    border-radius: 5px;
+    height: 300px;
+}
+.experience{
+    background-image: url("image/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+#baby{
+    border-left: 7px red;
+}
+.my{
+    text-align: center;
 }
