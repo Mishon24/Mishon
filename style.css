@@ -6,10 +6,21 @@ h1{
     color: brown;
 }
 .wow{
-    width: 50%;
+    width: 40%;
     float: left;
+    margin-left: 5%;
+    padding-left: 1%;
 }
 .wow img{
-    width: 70%;
+    width: 100%;
 
+}
+.banner{
+    background-image: url("F:\web develoment\project\complete-web-development-bangla-resources-master\web_portfolio\image\top-banner.png");
+    
+}
+    
+}
+section{
+    height: 500px;
 }
